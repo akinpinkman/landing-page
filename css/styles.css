@@ -1,24 +1,29 @@
 body{
-    margin: 0;
     background-color: #ffffff;
-    
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .first-section, #header {
-background-color: #1F2937;
-color: rgb(241, 241, 241);
-
+    background-color: #1F2937;
+    color: rgb(241, 241, 241);
 }
+
+
 
 #header{
     display: flex;
     align-items: center;
-    
+    padding: 0 250px;
 }
 
 .first-section-container{
     display: flex;
-    padding: 30px;
+    
     
 }
 
@@ -54,11 +59,13 @@ color: rgb(241, 241, 241);
 
 #hero{
     font-size: 48px;
+    margin: 0;
 }
 
 .third-section{
     background-color: #E5E7EB;
-   
+    margin-top: 40px;
+    height: 250px;
 }
 
 .jesse-quote{
@@ -67,7 +74,7 @@ color: rgb(241, 241, 241);
     font-size: 36px;
     color:#808080;
     margin:auto;
-    padding:30px;
+    padding:10px;
 }
 
 #jesse-pinkman{
@@ -80,26 +87,45 @@ color: rgb(241, 241, 241);
     display: flex;
     width: 700px;
     flex-wrap: wrap;
-    padding-right: 300px; 
+    padding:70px 250px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fourth-section{
-display: flex;
-margin-top: 70px;
-justify-content: center;
-
-
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    
 }
 
 .cta-container{
     display: flex;
+    width: 760px;
+    background-color: #3882F6;
+    padding: 30px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-bottom:60px ;
+}
+
+.cta-texts{
+    display: flex;
     flex-direction: column;
-    width: 700px;
-    background-color: #3882F6;
-    
-    
 }
-#signup1{
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
     color: #ffffff;
     font-weight: bold;
     border: none;
@@ -109,25 +135,19 @@ justify-content: center;
     border-radius: 5px;
     background-color: #3882F6;
     padding: 5px 40px 5px 40px;
-    width: 150px;  
-}
-#signup{
-    color: #ffffff;
-    font-weight: bold;
-    border: none;
-    outline:2px;
-    outline-style:solid;
-    outline-color: #ffffff;
-    border-radius: 5px;
-    background-color: #3882F6;
-    padding: 5px 40px 5px 40px;
-    width: 150px;
-    
-    
+    width: 150px; 
 }
 
-
-
+.footer{
+    display: flex;
+    color:#ffffff;
+    background-color: #1F2937;
+    height: 70px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #nav-bar{
     display: flex;
