@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'BreakingBad';
+    src: url(/fonts/BreakingBad.otf);
+}
+
 body{
-    background-color: #ffffff;
+    background-color: #e9c46a;
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -8,27 +13,36 @@ body{
     min-height: 100vh;
 }
 
+
 .first-section, #header {
-    background-color: #1F2937;
+    background-color: #3d8a55;
     color: rgb(241, 241, 241);
 }
 
-
+.logo-header{
+    display: flex;
+    width: 450px;
+    height: 104px;
+    align-items: center;
+    justify-content: flex-start;
+    gap:30px;
+    margin: 0;
+}
 
 #header{
     display: flex;
     align-items: center;
     padding: 0 250px;
+    font-family: BreakingBad;
+    font-size: 25px;
+    
 }
 
 .first-section-container{
-    display: flex;
-    
-    
+    display: flex;    
 }
 
 .second-section{
-    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -37,8 +51,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
-    gap:3em;
-    
+    gap:9em;   
 }
 
 .item{
@@ -54,16 +67,16 @@ body{
     font-size: 36px;
     font-weight: bolder;
     padding-bottom: 20px;
-    
 }
 
 #hero{
-    font-size: 48px;
+    font-size: 38px;
     margin: 0;
+    
 }
 
 .third-section{
-    background-color: #E5E7EB;
+    background-color: #81a7ca;
     margin-top: 40px;
     height: 250px;
 }
@@ -72,9 +85,14 @@ body{
     width: 700px;
     font-style: italic;
     font-size: 36px;
-    color:#808080;
+    color:#000000;
     margin:auto;
     padding:10px;
+    
+}
+
+span{
+    width: 200px;
 }
 
 #jesse-pinkman{
@@ -83,8 +101,10 @@ body{
     width: 130px;
     margin-left:auto;
 }
+
 .text{
     display: flex;
+    flex-direction: column;
     width: 700px;
     flex-wrap: wrap;
     padding:70px 250px;
@@ -94,19 +114,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .fourth-section{
     display: flex;
     margin-top: 70px;
     justify-content: center;
-    
 }
 
 .cta-container{
     display: flex;
     width: 760px;
-    background-color: #3882F6;
+    background-color: #f77d61;
     padding: 30px;
     justify-content: space-evenly;
     border-radius: 10px;
@@ -133,7 +153,7 @@ button{
     outline-style:solid;
     outline-color: #ffffff;
     border-radius: 5px;
-    background-color: #3882F6;
+    background-color: #369457;
     padding: 5px 40px 5px 40px;
     width: 150px; 
 }
@@ -141,7 +161,7 @@ button{
 .footer{
     display: flex;
     color:#ffffff;
-    background-color: #1F2937;
+    background-color: #3d8a55;
     height: 70px;
     margin-top: auto;
     display: flex;
